@@ -13,14 +13,14 @@ import os
 
 from selenium.webdriver.chrome.options import Options
 opts = Options()
-opts.add_argument("user-agent=manhdd")
+opts.add_argument("user-agent=1234")
 
 
 # In[4]:
 
 
 # create a new Chrome session
-driver = webdriver.Chrome("/Users/manhdd/Downloads/chromedriver_2",options=opts)
+driver = webdriver.Chrome("PATH/TO/YOUR/CHROME_DRIVER",options=opts)
 
 
 # In[7]:
