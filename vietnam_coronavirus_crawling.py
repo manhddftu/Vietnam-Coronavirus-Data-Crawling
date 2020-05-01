@@ -98,7 +98,7 @@ for row in data_2.find_all('tr'):
 # In[58]:
 
 
-#Create a pd dataframe for table 1
+#Create a pd dataframe for table 2
 df_2=pd.DataFrame({'Bệnh nhân':benh_nhan,'Tuổi':tuoi,'Giới tính':gioi_tinh,'Địa điểm':dia_diem,'Tình trạng':tinh_trang,'Quốc tịch':quoc_tich})
 
 
